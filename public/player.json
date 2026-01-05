@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "https://example.com/players/virat.png",
+    "img": "https://i.ibb.co/rKjP5R6H/virat.webp",
     "name": "Virat Kohli",
     "country": "India",
     "role": "Batsman",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "img": "https://example.com/players/babar.png",
+    "img": "https://i.ibb.co/MDcPFT0r/babar.jpg",
     "name": "Babar Azam",
     "country": "Pakistan",
     "role": "Batsman",
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "img": "https://example.com/players/rohit.png",
+    "img": "https://i.ibb.co/jkFVdbYy/rohit.jpg",
     "name": "Rohit Sharma",
     "country": "India",
     "role": "Batsman",
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "img": "https://example.com/players/sakib.png",
+    "img": "https://i.ibb.co/jZ9Xj8XD/shakib.jpg",
     "name": "Shakib Al Hasan",
     "country": "Bangladesh",
     "role": "All-Rounder",
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "img": "https://example.com/players/benstokes.png",
+    "img": "https://i.ibb.co/LXn6Dt4N/ben.jpg",
     "name": "Ben Stokes",
     "country": "England",
     "role": "All-Rounder",
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "img": "https://example.com/players/kane.png",
+    "img": "https://i.ibb.co/ZpYN3nWQ/kane.webp",
     "name": "Kane Williamson",
     "country": "New Zealand",
     "role": "Batsman",
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "img": "https://example.com/players/warner.png",
+    "img": "https://i.ibb.co/XZf6tyyh/david.jpg",
     "name": "David Warner",
     "country": "Australia",
     "role": "Batsman",
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "img": "https://example.com/players/bumrah.png",
+    "img": "https://i.ibb.co/spm38r5D/jusprit.webp",
     "name": "Jasprit Bumrah",
     "country": "India",
     "role": "Bowler",
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "img": "https://example.com/players/rashid.png",
+    "img": "https://i.ibb.co/4RTYt23b/Rashid.webp",
     "name": "Rashid Khan",
     "country": "Afghanistan",
     "role": "Bowler",
@@ -100,7 +100,7 @@
   },
   {
     "id": 10,
-    "img": "https://example.com/players/anderson.png",
+    "img": "https://i.ibb.co/j9Mmq4sz/james.jpg",
     "name": "James Anderson",
     "country": "England",
     "role": "Bowler",
@@ -111,7 +111,7 @@
   },
   {
     "id": 11,
-    "img": "https://example.com/players/smith.png",
+    "img": "https://i.ibb.co/7JPvvzjy/smith.jpg",
     "name": "Steve Smith",
     "country": "Australia",
     "role": "Batsman",
@@ -122,7 +122,7 @@
   },
   {
     "id": 12,
-    "img": "https://example.com/players/maxwell.png",
+    "img": "https://i.ibb.co/Nn7HRwN7/maxwell.jpg",
     "name": "Glenn Maxwell",
     "country": "Australia",
     "role": "All-Rounder",
@@ -133,7 +133,7 @@
   },
   {
     "id": 13,
-    "img": "https://example.com/players/rahim.png",
+    "img": "https://i.ibb.co/F4C9QMNm/mushfiqur.webp",
     "name": "Mushfiqur Rahim",
     "country": "Bangladesh",
     "role": "Wicket-Keeper",
@@ -144,7 +144,7 @@
   },
   {
     "id": 14,
-    "img": "https://example.com/players/rizwan.png",
+    "img": "https://i.ibb.co/V02M3j0V/mohammad.jpg",
     "name": "Mohammad Rizwan",
     "country": "Pakistan",
     "role": "Wicket-Keeper",
@@ -155,7 +155,7 @@
   },
   {
     "id": 15,
-    "img": "https://example.com/players/southee.png",
+    "img": "https://i.ibb.co/4wS8MStJ/tim.jpg",
     "name": "Tim Southee",
     "country": "New Zealand",
     "role": "Bowler",
@@ -166,7 +166,7 @@
   },
   {
     "id": 16,
-    "img": "https://example.com/players/hasaranga.png",
+    "img": "https://i.ibb.co/6cN9nBPn/wanindu.jpg",
     "name": "Wanindu Hasaranga",
     "country": "Sri Lanka",
     "role": "All-Rounder",
