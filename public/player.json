@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "img": "https://example.com/players/virat.png",
+    "name": "Virat Kohli",
+    "country": "India",
+    "role": "Batsman",
+    "rating": 9.5,
+    "ball": "Medium",
+    "bat": "Right-hand",
+    "price": 120000
+  },
+  {
+    "id": 2,
+    "img": "https://example.com/players/babar.png",
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "rating": 9.3,
+    "ball": "None",
+    "bat": "Right-hand",
+    "price": 115000
+  },
+  {
+    "id": 3,
+    "img": "https://example.com/players/rohit.png",
+    "name": "Rohit Sharma",
+    "country": "India",
+    "role": "Batsman",
+    "rating": 9.2,
+    "ball": "Off-spin",
+    "bat": "Right-hand",
+    "price": 110000
+  },
+  {
+    "id": 4,
+    "img": "https://example.com/players/sakib.png",
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "rating": 9.4,
+    "ball": "Left-arm spin",
+    "bat": "Left-hand",
+    "price": 125000
+  },
+  {
+    "id": 5,
+    "img": "https://example.com/players/benstokes.png",
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-Rounder",
+    "rating": 9.1,
+    "ball": "Fast",
+    "bat": "Left-hand",
+    "price": 118000
+  },
+  {
+    "id": 6,
+    "img": "https://example.com/players/kane.png",
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "rating": 9.0,
+    "ball": "Off-spin",
+    "bat": "Right-hand",
+    "price": 108000
+  },
+  {
+    "id": 7,
+    "img": "https://example.com/players/warner.png",
+    "name": "David Warner",
+    "country": "Australia",
+    "role": "Batsman",
+    "rating": 8.9,
+    "ball": "None",
+    "bat": "Left-hand",
+    "price": 105000
+  },
+  {
+    "id": 8,
+    "img": "https://example.com/players/bumrah.png",
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "rating": 9.6,
+    "ball": "Fast",
+    "bat": "Right-hand",
+    "price": 130000
+  },
+  {
+    "id": 9,
+    "img": "https://example.com/players/rashid.png",
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "rating": 9.4,
+    "ball": "Leg-spin",
+    "bat": "Right-hand",
+    "price": 122000
+  },
+  {
+    "id": 10,
+    "img": "https://example.com/players/anderson.png",
+    "name": "James Anderson",
+    "country": "England",
+    "role": "Bowler",
+    "rating": 8.8,
+    "ball": "Swing",
+    "bat": "Right-hand",
+    "price": 95000
+  },
+  {
+    "id": 11,
+    "img": "https://example.com/players/smith.png",
+    "name": "Steve Smith",
+    "country": "Australia",
+    "role": "Batsman",
+    "rating": 9.2,
+    "ball": "Leg-spin",
+    "bat": "Right-hand",
+    "price": 112000
+  },
+  {
+    "id": 12,
+    "img": "https://example.com/players/maxwell.png",
+    "name": "Glenn Maxwell",
+    "country": "Australia",
+    "role": "All-Rounder",
+    "rating": 8.7,
+    "ball": "Off-spin",
+    "bat": "Right-hand",
+    "price": 102000
+  },
+  {
+    "id": 13,
+    "img": "https://example.com/players/rahim.png",
+    "name": "Mushfiqur Rahim",
+    "country": "Bangladesh",
+    "role": "Wicket-Keeper",
+    "rating": 8.6,
+    "ball": "None",
+    "bat": "Right-hand",
+    "price": 98000
+  },
+  {
+    "id": 14,
+    "img": "https://example.com/players/rizwan.png",
+    "name": "Mohammad Rizwan",
+    "country": "Pakistan",
+    "role": "Wicket-Keeper",
+    "rating": 8.9,
+    "ball": "None",
+    "bat": "Right-hand",
+    "price": 100000
+  },
+  {
+    "id": 15,
+    "img": "https://example.com/players/southee.png",
+    "name": "Tim Southee",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "rating": 8.5,
+    "ball": "Swing",
+    "bat": "Right-hand",
+    "price": 90000
+  },
+  {
+    "id": 16,
+    "img": "https://example.com/players/hasaranga.png",
+    "name": "Wanindu Hasaranga",
+    "country": "Sri Lanka",
+    "role": "All-Rounder",
+    "rating": 8.8,
+    "ball": "Leg-spin",
+    "bat": "Right-hand",
+    "price": 99000
+  }
+]
