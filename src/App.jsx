@@ -4,6 +4,8 @@ import AvailableBalance from "./Component/AvailableBalance/AvailableBalance";
 import Hero from "./Component/Hero/Hero";
 import Navbar from "./Component/Navbar/Navbar";
 import SelectedPlayers from "./Component/SelectedPlayers/SelectedPlayers";
+import Footer from "./Component/Footer/Footer";
+import Subscribe from "./Component/Subscribe/Subscribe";
 
 let fetchPlayers = fetch("/player.json").then((res) => res.json());
 
@@ -32,7 +34,10 @@ function App() {
         toggle === true ? <Suspense fallback={<h3>Just a sec...</h3>}>
         <AvailableBalance fetchPlayers={fetchPlayers}></AvailableBalance>
       </Suspense> : <SelectedPlayers></SelectedPlayers>
-      }      
+      }
+
+      <Subscribe></Subscribe>
+      <Footer></Footer>      
     </>
   );
 }
