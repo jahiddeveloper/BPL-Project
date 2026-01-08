@@ -4,16 +4,28 @@ import AvailableBalance from "./Component/AvailableBalance/AvailableBalance";
 import Hero from "./Component/Hero/Hero";
 import Navbar from "./Component/Navbar/Navbar";
 
-let fetchPlayers = fetch('/player.json')
-.then(res => res.json())
+let fetchPlayers = fetch("/player.json").then((res) => res.json());
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
       <Hero></Hero>
+
+      <div className="container mx-auto flex justify-between items-center mt-10">
+        <h3 className="text-2xl font-bold">Available Players</h3>
+        <div className="">
+          <button className="px-5 py-3 cursor-pointer border-2 border-gray-200 text-gray-500 border-r-0 rounded-l-xl bg-[#E7FE29]">
+            Available
+          </button>
+          <button className="px-5 py-3 cursor-pointer border-2 border-gray-200 text-gray-500 border-l-0 rounded-r-xl">
+            Selected <span>(0)</span>
+          </button>
+        </div>
+      </div>
+
       <Suspense fallback={<h3>Just a sec...</h3>}>
-        <AvailableBalance fetchPlayers = {fetchPlayers}></AvailableBalance>
+        <AvailableBalance fetchPlayers={fetchPlayers}></AvailableBalance>
       </Suspense>
     </>
   );
