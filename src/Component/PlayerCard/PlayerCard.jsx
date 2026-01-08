@@ -4,7 +4,7 @@ import flag from "../../assets/flag.png";
 
 const PlayerCard = ({ player }) => {
   return (
-    <div className="card bg-base-100 w-96 shadow-sm">
+    <div className="card bg-base-100 w-96 shadow-sm hover:shadow-2xl hover:transition duration-300">
       <figure>
         <img className="h-60 w-full object-cover" src={player.img} alt="Player image" />
       </figure>
@@ -29,7 +29,7 @@ const PlayerCard = ({ player }) => {
         <h3 className="mt-3 font-bold">Rating : {player.rating}</h3>
         <div className="flex justify-between items-center">
             <h3 className="font-bold">Bat : {player.bat}</h3>
-            <h3 className="font-semibold">Ball : {player.ball}</h3>
+            <h3 className="font-semibold text-gray-500">Ball : {player.ball}</h3>
         </div>
 
         <div className="flex justify-between items-center">
