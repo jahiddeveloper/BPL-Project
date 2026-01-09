@@ -1,6 +1,6 @@
 import React from "react";
 import navImg from "../../assets/logo.png";
-import coin from "../../assets/coin-1.png"
+import coin from "../../assets/coin-1.png";
 
 const Navbar = () => {
   return (
@@ -62,7 +62,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="font-bold btn"><span>600000000</span>Coin <img src={coin} alt="" /></a>
+          <a className="font-bold btn">
+            <span>600000000</span>Coin <img src={coin} alt="" />
+          </a>
         </div>
       </div>
     </div>
