@@ -11,10 +11,11 @@ let fetchPlayers = fetch("/player.json").then((res) => res.json());
 
 function App() {
   let [toggle, setToggle] = useState(true);
+  let [availableBalance, setAvailableBalance] = useState(600000)
 
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar availableBalance={availableBalance}></Navbar>
       <Hero></Hero>
 
       <div className="container mx-auto flex justify-between items-center mt-10">
@@ -43,7 +44,7 @@ function App() {
 
       {toggle === true ? (
         <Suspense fallback={<h3>Just a sec...</h3>}>
-          <AvailableBalance fetchPlayers={fetchPlayers}></AvailableBalance>
+          <AvailableBalance fetchPlayers={fetchPlayers} setAvailableBalance={setAvailableBalance} availableBalance={availableBalance}></AvailableBalance>
         </Suspense>
       ) : (
         <SelectedPlayers></SelectedPlayers>

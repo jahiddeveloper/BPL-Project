@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import me from "../../assets/me.png";
 import flag from "../../assets/flag.png";
 
-const PlayerCard = ({ player }) => {
+const PlayerCard = ({ player, setAvailableBalance, availableBalance }) => {
+
+  let [isSelected, setIsSelected] = useState(false);
+
   return (
     <div className="card bg-base-100 w-96 shadow-sm hover:shadow-2xl hover:transition duration-300">
       <figure>
@@ -38,7 +41,10 @@ const PlayerCard = ({ player }) => {
 
         <div className="flex justify-between items-center">
           <h3 className="font-bold">Price : {player.price}</h3>
-          <button className="btn">Choose Player</button>
+          <button disabled={isSelected} onClick={() => {
+            setIsSelected(true)
+            setAvailableBalance(availableBalance - player.price)
+          }} className="btn">{isSelected === true ? "Selected" : "Choose Player"}</button>
         </div>
       </div>
     </div>
