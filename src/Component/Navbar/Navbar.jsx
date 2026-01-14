@@ -2,7 +2,7 @@ import React from "react";
 import navImg from "../../assets/logo.png";
 import coin from "../../assets/coin-1.png";
 
-const Navbar = ({availableBalance}) => {
+const Navbar = ({ availableBalance }) => {
   return (
     <div className="bg-base-100 shadow-sm">
       <div className="navbar container mx-auto">

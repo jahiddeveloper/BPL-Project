@@ -11,7 +11,7 @@ let fetchPlayers = fetch("/player.json").then((res) => res.json());
 
 function App() {
   let [toggle, setToggle] = useState(true);
-  let [availableBalance, setAvailableBalance] = useState(600000)
+  let [availableBalance, setAvailableBalance] = useState(600000);
 
   return (
     <>
@@ -44,7 +44,11 @@ function App() {
 
       {toggle === true ? (
         <Suspense fallback={<h3>Just a sec...</h3>}>
-          <AvailableBalance fetchPlayers={fetchPlayers} setAvailableBalance={setAvailableBalance} availableBalance={availableBalance}></AvailableBalance>
+          <AvailableBalance
+            fetchPlayers={fetchPlayers}
+            setAvailableBalance={setAvailableBalance}
+            availableBalance={availableBalance}
+          ></AvailableBalance>
         </Suspense>
       ) : (
         <SelectedPlayers></SelectedPlayers>

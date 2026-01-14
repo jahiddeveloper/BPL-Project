@@ -3,7 +3,7 @@ import me from "../../assets/me.png";
 import flag from "../../assets/flag.png";
 
 const PlayerCard = ({ player, setAvailableBalance, availableBalance }) => {
-
+  
   let [isSelected, setIsSelected] = useState(false);
 
   return (
@@ -41,10 +41,20 @@ const PlayerCard = ({ player, setAvailableBalance, availableBalance }) => {
 
         <div className="flex justify-between items-center">
           <h3 className="font-bold">Price : {player.price}</h3>
-          <button disabled={isSelected} onClick={() => {
-            setIsSelected(true)
-            setAvailableBalance(availableBalance - player.price)
-          }} className="btn">{isSelected === true ? "Selected" : "Choose Player"}</button>
+          <button
+            disabled={isSelected}
+            onClick={() => {
+              if (availableBalance < player.price) {
+                alert("No money");
+                return;
+              }
+              setIsSelected(true);
+              setAvailableBalance(availableBalance - player.price);
+            }}
+            className="btn"
+          >
+            {isSelected === true ? "Selected" : "Choose Player"}
+          </button>
         </div>
       </div>
     </div>
